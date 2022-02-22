@@ -1,0 +1,22 @@
+<mat-list role="list">
+    <mat-list-item role="listitem">
+        <mat-form-field appearance="fill">
+            <mat-label>Raw text</mat-label>
+            <input matInput type="text" [(ngModel)]="rawValue">
+        </mat-form-field>
+    </mat-list-item>
+    <mat-list-item role="listitem">
+        <button mat-button>encode</button>
+    </mat-list-item>
+    <mat-list-item role="listitem">
+        <button mat-button>decode</button>
+    </mat-list-item>
+    <mat-list-item role="listitem">
+        <mat-form-field appearance="fill">
+            <mat-label>Base64 text</mat-label>
+            <input matInput type="text" [(ngModel)]="base64Value">
+        </mat-form-field>
+    </mat-list-item>
+  </mat-list>
+ 
+  
